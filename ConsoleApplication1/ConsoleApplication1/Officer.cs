@@ -74,6 +74,5 @@ namespace ConsoleApplication1
             this.Gender = gender;
             this.Address = address;
         }
-        
     }
 }
