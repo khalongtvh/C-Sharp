@@ -1,0 +1,13 @@
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\bin\Debug\netcoreapp3.1\Bai3.exe
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\bin\Debug\netcoreapp3.1\Bai3.deps.json
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\bin\Debug\netcoreapp3.1\Bai3.runtimeconfig.json
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\bin\Debug\netcoreapp3.1\Bai3.runtimeconfig.dev.json
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\bin\Debug\netcoreapp3.1\Bai3.dll
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\bin\Debug\netcoreapp3.1\Bai3.pdb
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\obj\Debug\netcoreapp3.1\Bai3.GeneratedMSBuildEditorConfig.editorconfig
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\obj\Debug\netcoreapp3.1\Bai3.AssemblyInfoInputs.cache
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\obj\Debug\netcoreapp3.1\Bai3.AssemblyInfo.cs
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\obj\Debug\netcoreapp3.1\Bai3.csproj.CoreCompileInputs.cache
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\obj\Debug\netcoreapp3.1\Bai3.dll
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\obj\Debug\netcoreapp3.1\Bai3.pdb
+D:\221\C#\LY_THUYET\PROJECT\BAI_2\Bai3\Bai3\Bai3\obj\Debug\netcoreapp3.1\Bai3.genruntimeconfig.cache
