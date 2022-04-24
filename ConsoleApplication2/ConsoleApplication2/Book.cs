@@ -56,9 +56,10 @@ namespace ConsoleApplication2
 
         public override void toString()
         {
+            Console.WriteLine("\tSách: ");
             base.toString();
-            Console.WriteLine($"\tauthor: {author}");
-            Console.WriteLine($"\tpageNumber: {pageNumber}");
+            Console.WriteLine($"\t\tauthor: {author}");
+            Console.WriteLine($"\t\tpageNumber: {pageNumber}");
         }
     }
 }

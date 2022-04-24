@@ -76,9 +76,9 @@ namespace ConsoleApplication2
 
         public virtual void toString()
         {
-            Console.WriteLine($"\tid: {id}");
-            Console.WriteLine($"\tnxb: {nxb}");
-            Console.WriteLine($"\tnumber: {number}");
+            Console.WriteLine($"\t\tid: {id}");
+            Console.WriteLine($"\t\tnxb: {nxb}");
+            Console.WriteLine($"\t\tnumber: {number}");
         }
     }
 }

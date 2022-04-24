@@ -25,9 +25,9 @@ namespace ConsoleApplication2
 
         public override void toString()
         {
-            //Console.WriteLine("\tBáo:");
+            Console.WriteLine("\tBáo: ");
             base.toString();
-            Console.WriteLine($"\tNgày phát hành{dayIssue}");
+            Console.WriteLine($"\t\tNgày phát hành{dayIssue}");
         }
         protected string DayIssue
         {

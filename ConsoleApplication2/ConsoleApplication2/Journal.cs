@@ -56,9 +56,10 @@ namespace ConsoleApplication2
 
         public override void toString()
         {
+            Console.WriteLine("\tTạp Chí: ");
             base.toString();
-            Console.WriteLine($"\tSố phát hành : {issueNumber}");
-            Console.WriteLine($"\tTháng phát hành : {monthIssue}");
+            Console.WriteLine($"\t\tSố phát hành : {issueNumber}");
+            Console.WriteLine($"\t\tTháng phát hành : {monthIssue}");
         }
     }
 }
