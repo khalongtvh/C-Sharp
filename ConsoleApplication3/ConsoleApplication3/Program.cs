@@ -10,6 +10,15 @@ namespace ConsoleApplication3
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            ManagerStudent manager = new ManagerStudent();
+            manager.addStudent(new StudentsA("2", "1", "1", "1"));
+            manager.addStudent(new StudentsB("1", "1", "1", "1"));
+            manager.addStudent(new StudentsC("3", "1", "1", "1"));
+
+            manager.showInfo();
+
+            Console.ReadKey();
         }
     }
 }
