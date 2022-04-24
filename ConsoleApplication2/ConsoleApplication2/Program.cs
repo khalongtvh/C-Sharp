@@ -54,7 +54,7 @@ namespace ConsoleApplication2
             doc.addDoc(new Book("5", "nxb", 1, "author", 10));
             
             doc.showDocument();
-            doc.delDoc("4");
+            doc.delDoc("4s");
             doc.showDocument();
             Console.ReadKey();
         }
