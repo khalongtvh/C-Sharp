@@ -59,7 +59,6 @@ namespace ConsoleApplication2
             base.toString();
             Console.WriteLine($"\tauthor: {author}");
             Console.WriteLine($"\tpageNumber: {pageNumber}");
-            
         }
     }
 }

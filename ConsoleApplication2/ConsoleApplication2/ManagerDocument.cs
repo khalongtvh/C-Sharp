@@ -20,34 +20,25 @@ namespace ConsoleApplication2
             this.docs.Add(newDoc);
         }
 
-        public void searchBook(string id)
+        public void delDoc(string id)
         {
-            foreach (var doc in docs)
-            {
-                string docType = doc.GetType().ToString();
-                if (docType.Contains("Book") && doc.Id.Equals(id))
-                {
-                    doc.toString();
-                }
-            }
+            this.docs.RemoveAt(docs.FindIndex(doc => doc.Id.Equals(id)));
+
+            //foreach (var doc in docs)
+            //{
+            //    if (doc.Id.Equals(id))
+            //    {
+            //        this.docs.Remove(doc);
+            //    }
+            //}
         }
-        public void searchNewspaper(string id, string search)
+
+        public void search(string id, string typeSearch)
         {
             foreach (var doc in docs)
             {
                 string docType = doc.GetType().ToString();
-                if (docType.Contains("Newspaper") && doc.Id.Equals(id))
-                {
-                    doc.toString();
-                }
-            }
-        }
-        public void searchJournal(string id, string search)
-        {
-            foreach (var doc in docs)
-            {
-                string docType = doc.GetType().ToString();
-                if (docType.Contains("Journal") && doc.Id.Equals(id))
+                if (docType.Contains(typeSearch) && doc.Id.Equals(id))
                 {
                     doc.toString();
                 }
