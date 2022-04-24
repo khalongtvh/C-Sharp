@@ -9,14 +9,17 @@ namespace ConsoleApplication1
     class ManagerOfficer
     {
         private List<Officer> officers;
+
         public ManagerOfficer()
         {
             this.officers = new List<Officer>();
         }
+
         public void addOfficer(Officer officer)
         {
             this.officers.Add(officer);
         }
+
         public void searchOfficerByName(String name)
         {
             foreach (var officer in officers)
@@ -27,6 +30,7 @@ namespace ConsoleApplication1
                 }
             }
         }
+
         public void showListInforOfficer()
         {
             foreach (var officer in officers)
