@@ -137,6 +137,8 @@ namespace ConsoleApplication2
                 Console.WriteLine("0. Quay lại");
                 Console.Write("Nhập công việc cần thực hiện: ");
                 string type = Console.ReadLine();
+                if (type.Equals("0"))
+                    return;
                 Console.Write("Nhập id cần tìm: ");
                 string id = Console.ReadLine();
                 switch (type)
