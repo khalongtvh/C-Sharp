@@ -8,21 +8,23 @@ namespace ConsoleApplication3
 {
     class StudentsC : Students
     {
-        public static string MON_VAN = "Van";
-        public static string MON_SU = "Su";
-        public static string MON_DIA = "Dia";
+        public string MON_VAN = "Văn";
+        public string MON_SU = "Sử";
+        public string MON_DIA = "Địa";
+
+        public StudentsC()
+        {
+        }
 
         public StudentsC(string id, string name, string address, string priority) : base(id, name, address, priority)
         {
-
         }
 
         public override void showInfo()
         {
             base.showInfo();
-            Console.WriteLine($"Văn: {MON_VAN}");
-            Console.WriteLine($"Sử: {MON_SU}");
-            Console.WriteLine($"Địa: {MON_DIA}");
+            Console.WriteLine($"\tKhối thi A - Môn thi: {MON_VAN}, {MON_SU}, {MON_DIA}");
+            Console.WriteLine("===============================================");
         }
     }
 }

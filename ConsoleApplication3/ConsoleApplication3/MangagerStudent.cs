@@ -40,13 +40,17 @@ namespace ConsoleApplication3
             {
                 Console.WriteLine("Xoá thất bại!");
             }
-
         }
 
         public void showInfo()
         {
-            Console.WriteLine("Danh sách thí sinh:");
+            Console.WriteLine("====================Danh sách thí sinh====================");
             this.students.ForEach(x => x.showInfo());
+        }
+
+        public void searchById(string id)
+        {
+            this.students.Find(x => x.Id.Equals(id)).showInfo();
         }
     }
 }

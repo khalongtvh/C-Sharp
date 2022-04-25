@@ -8,19 +8,23 @@ namespace ConsoleApplication3
 {
     class StudentsB : Students
     {
-        public static string MON_TOAN = "Toan";
+        public static string MON_TOAN = "Toán";
         public static string MON_SINH = "Sinh";
-        public static string MON_HOA = "Hoa";
-        public StudentsB(string id, string name, string address, string priority) : base(id, name, address, priority)
-        {
+        public static string MON_HOA = "Hóa";
 
+        public StudentsB()
+        {
         }
+
+        public StudentsB(string id, string name, string address, string priority) : base(id, name, address, priority)
+        {}
+
         public override void showInfo()
         {
             base.showInfo();
-            Console.WriteLine($"Toán: {MON_TOAN}");
-            Console.WriteLine($"Hoá: {MON_HOA}");
-            Console.WriteLine($"Sinh: {MON_SINH}");
+            Console.WriteLine($"\tKhối thi B - Môn thi: {MON_TOAN}, {MON_HOA}, {MON_SINH}");
+            Console.WriteLine("===============================================");
+
         }
     }
 }

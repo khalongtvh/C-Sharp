@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication3
 {
-    class Students
+    public class Students
     {
         private string id;
         private string name;
         private string address;
         private string priority;
+
+        public Students() { }
 
         public Students(string id, string name, string address, string priority)
         {
@@ -86,10 +88,10 @@ namespace ConsoleApplication3
         }
         public virtual void showInfo()
         {
-            Console.WriteLine($"Id: {Id}");
-            Console.WriteLine($"Tên: {Name}");
-            Console.WriteLine($"Địa chỉ: {Address}");
-            Console.WriteLine($"Độ ưu tiên: {Priority}");
+            Console.WriteLine($"\tId: {Id}");
+            Console.WriteLine($"\tTên: {Name}");
+            Console.WriteLine($"\tĐịa chỉ: {Address}");
+            Console.WriteLine($"\tĐộ ưu tiên: {Priority}");
         }
     }
 }
