@@ -6,8 +6,9 @@ namespace ConsoleApplication4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
+            Ptb2 pt = new Ptb2();
+            pt.Nhap();
+            pt.nghiemPT();
         }
     }
 }
