@@ -6,7 +6,15 @@ namespace ConsoleApplication5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Cat cat_229 = new Cat();
+            cat_229.AnimalSound();
+            cat_229.Eat();
+            cat_229.run();
+
+            Bird b_229 = new Bird();
+            b_229.AnimalSound();
+            b_229.Eat();
+            b_229.fly();
         }
     }
 }
