@@ -23,7 +23,7 @@ namespace KhuPho_OOP
             for (int i = 0; i < n; i++)
             {
                 Person person = new Person();
-                person.inputPerson();
+                person.inputPerson(); 
 
                 if (Town.check_idPersonInTown(person.ID) && check_idPersonInFamily(person.ID))
                 {

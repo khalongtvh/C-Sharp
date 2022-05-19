@@ -86,6 +86,7 @@ namespace ConsoleApplication3
             Console.Write("Nhập độ ưu tiên: ");
             Priority = Console.ReadLine();
         }
+
         public virtual void showInfo()
         {
             Console.WriteLine($"\tId: {Id}");
