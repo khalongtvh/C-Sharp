@@ -29,6 +29,17 @@ namespace KhuPho_OOP
             return true;
         }
 
+        public void seachByIdPerson(string idPerson)
+        {
+            foreach (Family family in families)
+            {
+                if(family.Persons.Find(x => x.ID.Equals(idPerson)) != null)
+                {
+                    family.Display(idPerson);
+                }
+                
+            }
+        }
         public void addFamily(Family family)
         {
             Families.Add(family);
@@ -40,7 +51,7 @@ namespace KhuPho_OOP
             Console.WriteLine("so ho gia dinh " + families.Count);
             families.ForEach(delegate (Family item)
             {
-                item.Display();
+                item.Display("all");
             });
         }
     }

@@ -6,7 +6,7 @@ namespace KhuPho_OOP
     {
         static void Main(string[] args)
         {
-            
+
             Town town = new Town();
             Console.Write("So luong ho gia dinh: ");
             int n = Convert.ToInt32(Console.ReadLine());
@@ -18,7 +18,9 @@ namespace KhuPho_OOP
 
                 town.addFamily(family);
             }
+            Console.Clear();
             town.Display();
+            town.seachByIdPerson("1");
         }
     }
 }

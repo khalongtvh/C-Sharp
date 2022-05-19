@@ -16,6 +16,14 @@ namespace KhuPho_OOP
         {
         }
 
+        public Person(string name, int age, string job, string iD)
+        {
+            Name = name;
+            Age = age;
+            Job = job;
+            ID = iD;
+        }
+
         public string Name { get => name; set => name = value; }
         public int Age { get => age; set => age = value; }
         public string Job { get => job; set => job = value; }

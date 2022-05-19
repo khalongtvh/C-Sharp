@@ -14,6 +14,12 @@ namespace KhuPho_OOP
             this.persons = new List<Person>();
         }
 
+        public Family(string address, List<Person> persons)
+        {
+            Address = address;
+            Persons = persons;
+        }
+
         public void inputFamily()
         {
             Console.Write("Address: ");
@@ -23,7 +29,7 @@ namespace KhuPho_OOP
             for (int i = 0; i < n; i++)
             {
                 Person person = new Person();
-                person.inputPerson(); 
+                person.inputPerson();
 
                 if (Town.check_idPersonInTown(person.ID) && check_idPersonInFamily(person.ID))
                 {
@@ -36,7 +42,7 @@ namespace KhuPho_OOP
                 }
             }
         }
-        
+
         public Boolean check_idPersonInFamily(string id)
         {
             foreach (var person in Persons)
@@ -54,14 +60,26 @@ namespace KhuPho_OOP
         public List<Person> Persons { get => persons; set => persons = value; }
 
 
-        public void Display()
+        public void Display(string typeDisplay)
         {
 
             Console.WriteLine($"address: {address}");
+
             persons.ForEach(delegate (Person item)
-            {
-                item.Display();
-            });
+                        {
+                            if (typeDisplay.Equals("all"))
+                            {
+                                item.Display();
+
+                            }
+                            else
+                            {
+                                if (item.ID.Equals(typeDisplay))
+                                {
+                                    item.Display();
+                                }
+                            }
+                        });
         }
 
     }
